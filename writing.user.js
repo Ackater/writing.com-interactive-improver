@@ -9,7 +9,7 @@
 // @grant       none
 // ==/UserScript==
 
-//Refresh a "Heavy server volume" page every 10 seconds.
+//Refresh a "Heavy server volume" page half a second after it loads
 
 var test = /Please try again in a few minutes/.test(document.body.innerHTML);
 if (test)
