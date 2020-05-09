@@ -6,7 +6,7 @@
 // @include https://www.writing.com/*
 // @downloadURL https://github.com/Ackater/writing.com-interactive-improver/raw/master/writing.user.js
 // @description Writing.com Interactive bullshit
-// @version     1
+// @version     2
 // @grant       none
 // ==/UserScript==
 
@@ -19,7 +19,7 @@ if (test)
 } else {
     var path = document.location.pathname;
     //Add some buttons to make the intro page look better
-    if (path.match(/\/main\/interact\/item_id\/(\d+)-[\w-]+/)) {
+    if (path.match(/\/main\/interactive-story\/item_id\/(\d+)-[\w-]+/)) {
         var enter = $('a:contains("Click here to begin the story...")')[0];
         var parent = enter.parentNode;
   
