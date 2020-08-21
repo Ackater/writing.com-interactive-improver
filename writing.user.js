@@ -12,7 +12,7 @@
 
 //Refresh a "Heavy server volume" page half a second after it loads
 
-var test = /or try again in a few minutes/.test(document.body.innerHTML);
+var test = /or try again in just a few minutes/.test(document.body.innerHTML);
 if (test)
 {
     setTimeout ("location.reload();", 500);
