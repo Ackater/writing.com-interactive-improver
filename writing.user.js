@@ -20,7 +20,7 @@ if (test)
     var path = document.location.pathname;
     //Add some buttons to make the intro page look better
     if (path.match(/\/main\/interactive-story\/item_id\/(\d+)-[\w-]+/)) {
-        var enter = $('a:contains("Click here to begin the story...")')[0];
+        var enter = $('a:contains("Begin this interactive story...")')[0];
         var parent = enter.parentNode;
   
         var recent = enter.cloneNode(false);
