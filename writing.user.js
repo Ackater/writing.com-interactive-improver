@@ -6,13 +6,13 @@
 // @include https://www.writing.com/*
 // @downloadURL https://github.com/Ackater/writing.com-interactive-improver/raw/master/writing.user.js
 // @description Writing.com Interactive bullshit
-// @version     3
+// @version     4
 // @grant       none
 // ==/UserScript==
 
 //Refresh a "Heavy server volume" page half a second after it loads
 
-var test = /or try again in just a few minutes/.test(document.body.innerHTML);
+var test = /or try again in a few minutes/.test(document.body.innerHTML);
 if (test)
 {
     setTimeout ("location.reload();", 500);
