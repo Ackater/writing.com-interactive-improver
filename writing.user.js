@@ -6,7 +6,7 @@
 // @include https://www.writing.com/*
 // @downloadURL https://github.com/Ackater/writing.com-interactive-improver/raw/master/writing.user.js
 // @description Writing.com Interactive bullshit
-// @version     4
+// @version     5
 // @grant       none
 // ==/UserScript==
 
