@@ -17,7 +17,7 @@ if (test)
 {
     setTimeout(function() {
     location.reload();
-    }, 100);
+    }, 500);
 } else {
     var path = document.location.pathname;
     //Add some buttons to make the intro page look better
