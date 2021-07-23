@@ -9,13 +9,15 @@
 // @version     5
 // @grant       none
 // ==/UserScript==
-
+/* eslint-env jquery */
 //Refresh a "Heavy server volume" page half a second after it loads
 
 var test = /or try again in a few minutes/.test(document.body.innerHTML);
 if (test)
 {
-    setTimeout ("location.reload();", 500);
+    setTimeout(function() {
+    location.reload();
+    }, 100);
 } else {
     var path = document.location.pathname;
     //Add some buttons to make the intro page look better
