@@ -21,7 +21,7 @@ if (test)
 } else {
     var path = document.location.pathname;
     //Add some buttons to make the intro page look better
-    if (path.match(/\/main\/interactive-story\/item_id\/(\d+)-[\w-]+/)) {
+    if (path.match(/\/main\/interactive-story\/item_id\/(\d+)-[\w-]+$/)) {
         var enter = $("a[href$='/map/1']")[0];
         var parent = enter.parentNode;
   
