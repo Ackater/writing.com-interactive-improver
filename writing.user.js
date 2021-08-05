@@ -12,8 +12,8 @@
 /* eslint-env jquery */
 //Refresh a "Heavy server volume" page half a second after it loads
 
-var test = /Due to resource limitations/.test(document.body.innerHTML);
-if (test)
+var test = /vimeo.com\/video\/253498365/.test(document.body.innerHTML);
+if (document.location.pathname.match(/\/main\/interactive-story\/item_id\//) && test)
 {
     setTimeout(function() {
     location.reload();
