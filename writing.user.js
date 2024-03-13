@@ -12,7 +12,7 @@
 /* eslint-env jquery */
 //Refresh a "Heavy server volume" page half a second after it loads
 
-var test = /vimeo.com\/video\/892103601/.test(document.body.innerHTML);
+var test = document.title === "One Moment Please...";
 if (document.location.pathname.match(/\/main\/interactive-story\/item_id\//) && test)
 {
     setTimeout(function() {
