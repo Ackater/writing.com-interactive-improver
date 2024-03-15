@@ -6,7 +6,7 @@
 // @include https://www.writing.com/*
 // @downloadURL https://github.com/Ackater/writing.com-interactive-improver/raw/master/writing.user.js
 // @description Writing.com Interactive bullshit
-// @version     8
+// @version     9
 // @grant       none
 // ==/UserScript==
 /* eslint-env jquery */
